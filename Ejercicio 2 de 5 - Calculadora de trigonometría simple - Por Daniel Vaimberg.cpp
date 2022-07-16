@@ -3,7 +3,6 @@
 #include <stdio.h>
 #include <locale.h>
 #include <conio.h>
-#include <locale.h>
 
 #define PI 3.1415926536
 
