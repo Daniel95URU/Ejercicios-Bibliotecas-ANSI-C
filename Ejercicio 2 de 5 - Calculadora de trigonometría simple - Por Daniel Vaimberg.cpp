@@ -15,20 +15,20 @@ setlocale(LC_ALL, "spanish");
 int seleccion; 
 float x, s, a, c, t, ch, sh, th, si, ci, ti, rad; 
 
-printf("Calculadora: Seno, Coseno y Tangente \n"); 
+printf("Bienvenido al programa de la calculadora trigonomÃ©trica.\n"); 
 printf("Selecciona una opcion\n\n");
 printf("Seno = 1\n");
 printf("Coseno = 2\n");
 printf("Tangente = 3\n\n");
-printf("Seno hiperbólico = 4\n");
-printf("Coseno hiperbólico = 5\n");
-printf("Tangente hiperbólico = 6\n\n");
+printf("Seno hiperbÃ³lico = 4\n");
+printf("Coseno hiperbÃ³lico = 5\n");
+printf("Tangente hiperbÃ³lico = 6\n\n");
 printf("Seno inverso = 7\n");
 printf("Coseno inverso = 8\n");
 printf("Tangente inversa = 9\n");
 printf("------------------\nSeleccion: ");
 scanf("%d",&seleccion);
-printf("\n\nIngresa un número en grados:");
+printf("\n\nIngresa un nÃºmero en grados:");
 scanf("%f",&x); 
 rad = x*PI/180; 
 
@@ -57,21 +57,21 @@ break;
 
 case 4: 
 sh=sinh(rad);
-printf("El Seno hiperbólico de %.0f",x);
+printf("El Seno hiperbÃ³lico de %.0f",x);
 printf(" es: %.8f", sh); 
 getch();
 break;
 
 case 5: 
 ch=cosh(rad);
-printf("El Coseno hiperbólico de %.0f",x);
+printf("El Coseno hiperbÃ³lico de %.0f",x);
 printf(" es: %.8f", ch); 
 getch();
 break;
 
 case 6: 
 th=tanh(rad);
-printf("La Tangente hiperbólica de %.0f",x);
+printf("La Tangente hiperbÃ³lica de %.0f",x);
 printf(" es: %.8f", th); 
 getch();
 break;
@@ -98,7 +98,7 @@ getch();
 break;
 
 default:
-printf( "Por favor, elija una opción del menú...\n" );
+printf( "Por favor, elija una opciÃ³n del menÃº...\n" );
 getch();
 }
 return 0;
