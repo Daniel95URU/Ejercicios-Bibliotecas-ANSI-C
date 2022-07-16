@@ -44,10 +44,8 @@ final = time( NULL );
  
     time_spent += (double)(end - begin) / CLOCKS_PER_SEC;
  
-    printf("El tiempo transcurrido tras la ejecución del programa fue de %f segundos", time_spent);
+    printf("El tiempo transcurrido tras la ejecuciÃ³n del programa fue de %f segundos", time_spent);
  
-printf( "Comienzo: %s\n", asctime(tiempoComienzoPtr) );
-printf( "Final: %s\n", asctime(tiempoFinalPtr) );
 return 0;
 
 }
