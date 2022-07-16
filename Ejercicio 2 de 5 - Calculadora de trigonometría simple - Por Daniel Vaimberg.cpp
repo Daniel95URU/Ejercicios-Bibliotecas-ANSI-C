@@ -12,7 +12,7 @@ int main()
 setlocale(LC_ALL, "spanish");
 
 int seleccion; 
-float x, s, a, c, t, ch, sh, th, si, ci, ti, rad; 
+float x, s, c, t, ch, sh, th, si, ci, ti, rad; 
 
 printf("Bienvenido al programa de la calculadora trigonométrica.\n"); 
 printf("Selecciona una opcion\n\n");
