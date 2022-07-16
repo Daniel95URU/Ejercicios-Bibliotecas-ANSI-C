@@ -13,7 +13,7 @@ int main() {
 		
 	for (i=0; i<n; i++) {
 		printf("Nombre %d: ", i+1);
-		scanf(" %[^\n]", temp);
+		scanf(" %s", temp);
 			cadena[i]=(char*)malloc((strlen(temp)+1)*sizeof(char));
 		strcpy(cadena[i], temp);
 	}
